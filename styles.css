@@ -257,10 +257,11 @@ h2 .num{font-family:var(--mono); color:var(--accent-dim); font-size:1rem}
 .contact-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:16px; margin-bottom:32px}
 .contact-card{background:var(--panel); border:1px solid var(--panel-border); border-radius:var(--radius); padding:18px}
 .contact-card .label{display:block; font-family:var(--mono); font-size:.68rem; letter-spacing:.08em; color:var(--ink-faint); text-transform:uppercase; margin-bottom:8px}
-.contact-row{display:flex; align-items:center; justify-content:space-between; gap:10px; font-size:.95rem}
+.contact-row{display:flex; align-items:center; justify-content:space-between; gap:10px 14px; font-size:.95rem; flex-wrap:wrap}
+.contact-row a{overflow-wrap:anywhere; min-width:0}
 .copy-btn{
   font-family:var(--mono); font-size:.68rem; background:none; border:1px solid var(--panel-border); color:var(--ink-dim);
-  border-radius:6px; padding:4px 9px; cursor:pointer;
+  border-radius:6px; padding:4px 9px; cursor:pointer; flex-shrink:0;
 }
 .copy-btn:hover{color:var(--accent); border-color:var(--accent-dim)}
 .copy-btn.copied{color:var(--accent); border-color:var(--accent-dim)}
