@@ -32,6 +32,7 @@
       { name: 'Signalex', desc: 'French company intelligence & health-scoring platform', status: 'private' },
       { name: 'Data Collector', desc: 'Centralized multi-source data ingestion pipeline', status: 'private' },
       { name: 'Mulinete', desc: 'Full-stack company data extraction platform', status: 'private' },
+      { name: 'RAG API', desc: 'Retrieval-augmented Q&A API over project docs (Postgres + pgvector + Claude)', status: 'private' },
     ],
     '/score': { score: SCORE, grade: 'A', collectiveProceedings: 0, redFlags: 0 },
     '/contact': { email: 'oleg.v.maksimov@gmail.com', phone: '+33 6 52 64 23 77', linkedin: 'linkedin.com/in/olegmaksimov', location: 'Chanteheux, France' },
